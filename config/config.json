@@ -1,0 +1,61 @@
+{
+  "local": {
+    "username": "root",
+    "password": null,
+    "database": "aioia",
+    "host": "localhost",
+    "dialect": "mysql",
+    "JWT_AUTH_KEY": "Testtingwithdev@343232@!6745",
+    "roles": "user,business,admin",
+    "FORGOT_OTP_TOKEN_EXPIRY_IN": 1,
+    "SALT": 10,
+    "language": "en",
+    "BEARER_TOKEN_EXPIRY_IN": 2000,
+    "REFRESH_TOKEN_EXPIRY_IN": 2500,
+    "VERIFICATION_TOKEN_EXPIRY_IN": 100,
+    "GOOGLE_CID": "754344456933-ji197j74mmditngc2jpeam02umndunkn.apps.googleusercontent.com",
+    "FACEBOOK_URL": "https://graph.facebook.com/v16.0/me?fields=id,name,email&access_token=",
+    "secret_access_key": "",
+    "access_key": "",
+    "s3_region": "us-east-1",
+    "bucket_name": "assets.looks.ly",
+    "FIREBASE_URL": "http://192.168.1.64:3000/",
+    "API_KEY": "AIzaSyAnzvDCsp5zwm8FrP1so0tFDVJA4FYjCco",
+    "AUTH_DOMAIN": "myapp-f7c8d.firebaseapp.com",
+    "PROJECT_ID": "myapp-f7c8d",
+    "STORAGE_BUCKET": "myapp-f7c8d.appspot.com",
+    "MESSAGING_SENDER_ID": "85420676744",
+    "APP_ID": "1:85420676744:web:bf37be8ea0ec55efe0713d",
+    "MEASUREMENT_ID": "G-GVJFBPR3CB",
+    "FIREBASE_PATH": "./dev_firebase.json"
+  },
+  "development": {
+    "username": "newuser",
+    "password": "password",
+    "database": "AIOIA",
+    "host": "localhost",
+    "dialect": "mysql",
+    "JWT_AUTH_KEY": "Testtingwithdev@343232@!6745",
+    "roles": "user,business,admin",
+    "FORGOT_OTP_TOKEN_EXPIRY_IN": 1,
+    "SALT": 10,
+    "language": "en",
+    "BEARER_TOKEN_EXPIRY_IN": 2000,
+    "REFRESH_TOKEN_EXPIRY_IN": 2500,
+    "VERIFICATION_TOKEN_EXPIRY_IN": 100
+  },
+  "test": {
+    "username": "root",
+    "password": "password",
+    "database": "AIOIA",
+    "host": "localhost",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": "password",
+    "database": "AIOIA",
+    "host": "localhost",
+    "dialect": "mysql"
+  }
+}

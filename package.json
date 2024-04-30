@@ -1,0 +1,36 @@
+{
+  "name": "aioio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec \"serverless offline\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1368.0",
+    "axios": "^1.4.0",
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "db-migrate": "^0.11.13",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "google-auth-library": "^8.7.0",
+    "jsonwebtoken": "^9.0.0",
+    "moment": "^2.29.4",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.2.3",
+    "nodemon": "^2.0.22",
+    "sequelize": "^6.31.0",
+    "serverless-http": "^3.2.0",
+    "serverless-offline": "^12.0.4",
+    "uuid-int": "^3.1.0",
+    "validatorjs": "^3.22.1"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.6.0"
+  }
+}
